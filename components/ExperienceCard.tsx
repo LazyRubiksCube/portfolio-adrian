@@ -21,12 +21,12 @@ export default function ExperienceCard({}: Props) {
     <div className='px-0 md:px-10'>
         <h4 className='text-4xl font-light'>Proccess Assistant</h4>
         <p className='font-bold text-2xl mt-1'>Amazon</p>
-        <div>
+        <div className='flex space-x-2 my-2'>
             {/* Tech used */}
             {/* Tech used */}
             {/* Tech used */}
         </div>
-        <p>Started... - Ended...</p>
+        <p className='uppercase py-5 text-gray-500'>Started... - Ended...</p>
 
         <ul className='list-disc space-y-4 ml-5 text-lg'>
             <li>Summary points</li>
