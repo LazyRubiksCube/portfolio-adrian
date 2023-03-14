@@ -32,6 +32,11 @@ export default function Header({}: Props) {
             fgColor='gray'
             bgColor='transparent'
             />
+            <SocialIcon
+            url="https://twitter.com/tonedef_ari"
+            fgColor='gray'
+            bgColor='transparent'
+            />
         </motion.div>
 
         <motion.div 
