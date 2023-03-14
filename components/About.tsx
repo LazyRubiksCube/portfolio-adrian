@@ -15,7 +15,7 @@ export default function About({}: Props) {
         <h3 className='absolute top-24 uppercase tracking-[20px] text-gray-500 text-2xl'>
         About
         </h3>
-
+{/* picture of me that will have transition when user scrolls through */}
         <motion.image
             initial={{
                 x: -200,
@@ -29,7 +29,7 @@ export default function About({}: Props) {
             className='-mb-20 md:mb-0 flex-shrink-0 w-56 h-56 rounded-full object-cover
             md:rounded-lg md:w-64 md:h-95 xl:w-[500px] xl:h-[600px]'
         />
-
+{/* background information on me */}
         <div className='space-y-10 px-0 md:px-10'>
             <h4 className='text-4xl font-semibold'>
                 Here is a <span className='underline decoration-[#F7AB0A]/50'>little</span>{" "} 
