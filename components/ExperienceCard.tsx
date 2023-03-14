@@ -5,7 +5,7 @@ type Props = {}
 
 export default function ExperienceCard({}: Props) {
   return (
-   <article>
+   <article className='flex flex-col rounded-lg items-center space-y-7 flex-shrink-0 w-[500px] md:w-[600px] xl:w-[900px]'>
     <motion.img
       initial={{
         y: -100,
@@ -17,7 +17,7 @@ export default function ExperienceCard({}: Props) {
       className='w-32 h-32 rounded-full xl:w-[200px] xl:h-[200px] object-cover
       object-center'
     />
-
+{/* employment history, time there, & what I did */}
     <div className='px-0 md:px-10'>
         <h4 className='text-4xl font-light'>Proccess Assistant</h4>
         <p className='font-bold text-2xl mt-1'>Amazon</p>
