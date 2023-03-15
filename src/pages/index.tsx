@@ -5,6 +5,7 @@ import About from "../../components/About";
 import type { NextPage } from "next";
 import WorkExperience from "../../components/WorkExperience";
 import Skills from "../../components/Skills";
+import Projects from "../../components/Projects";
 
 
 
